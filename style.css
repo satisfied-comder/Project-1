@@ -1,0 +1,70 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(221, 73, 194),cyan, rgb(22, 157, 112),  rgb(166, 0, 255));
+}
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.calculator{
+    display: inline-block;
+}
+button{
+    height: 45px;
+    width: 60px;
+    margin: 4px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    height: 30px;
+    width: 270px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+#dot {
+    font-size: 1.5rem;
+}
+#minus{
+    height: 2px;
+    width: 10px;
+    color: black;
+    background-color: black;
+    margin: auto;
+}
+button:hover{
+    cursor :  pointer;
+    background-color: rgb(151, 173, 151);
+}   
+button:active{
+    background-color: rgb(87, 148, 105);
+}
+.symbol{
+    color: rgb(11, 11, 237);
+    border: 2px solid blue;
+}
+.symbol:hover{
+    background-color: rgb(187, 174, 224);
+    /* background-color: rgb(104, 88, 169); */
+}
+.symbol:active{
+    background-color: rgb(135, 127, 168);
+}
+.cancel{
+    color: red;
+    border: 2px solid red;
+}
+.cancel:hover{
+    background-color: rgb(177, 125, 125);
+}
